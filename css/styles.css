@@ -22,11 +22,13 @@ body {
 h1 {
     color: #007bff;
     margin-bottom: 10px;
+    font-family: 'header';
 }
 
 h2 {
     color: #333;
     margin-bottom: 20px;
+    font-family: 'content';
 }
 
 label {
@@ -69,3 +71,17 @@ button:hover {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+@font-face {
+    font-family: 'header';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/TrueType/Jost-600-Semi.ttf') format(TrueType);
+  }
+
+  @font-face {
+    font-family: 'content';
+    font-style: normal;
+    font-weight: bolder;
+    src: url('/fonts/TrueType/Jost-300-Light.ttf') format(TrueType);
+  }

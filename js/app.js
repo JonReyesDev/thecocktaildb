@@ -1,3 +1,5 @@
+//SE TERMINO EL PROYECTO
+
 function buscarCocktail() {
     const inputNombre = document.getElementById('txtNombre').value;
 

@@ -9,6 +9,10 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f8f9fa;
+    background-image: url(https://wallpapercave.com/wp/wp5256714.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .container {
